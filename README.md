@@ -55,3 +55,26 @@ A 2D AI simulation where a Thief agent attempts to steal a gem while avoiding a 
   Install via pip:
   ```bash
   pip install pyglet
+
+
+
+How to run:   python main.py (Windows)
+              python3 main.py (MacOs) 
+
+
+
+
+Project Structure -> 📂
+Custom_Project
+├── agent.py         # Thief & Guard logic with steering and FSM support
+├── bullet.py        # Bullet behavior and collision handling
+├── fsm.py           # FSM logic for Guard (Patrol & Chase states)
+├── graphics.py      # Color definitions
+├── main.py          # Game loop and key handling
+├── map.txt          # Maze layout for world generation
+├── pathfinding.py   # A* search algorithm
+├── ui.py            # Health bar and status labels
+├── world.py         # Environment setup, update, rendering logic
+
+
+
